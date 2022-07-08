@@ -57,7 +57,7 @@ namespace Resume_Creator_or_Generator
         {
             string file_name = lastnametxtbox.Text + "_" + firstnametxtbox.Text;
             iTextSharp.text.Document Doc = new iTextSharp.text.Document(PageSize.LETTER);
-            PdfWriter.GetInstance(Doc, new FileStream(@"D:\DESKTOP\Ram Ymac\EDUCATION\OOP\JSON file\JSON" + firstnametxtbox.Text + ".pdf", FileMode.Create));
+            PdfWriter.GetInstance(Doc, new FileStream(@"D:\DESKTOP\Ram Ymac\EDUCATION\OOP\JSON file\" + file_name + ".pdf", FileMode.Create));
             Doc.Open();
             System.Drawing.Image img = System.Drawing.Image.FromFile(@"D:\DESKTOP\Ram Ymac\EDUCATION\OOP\JSON JPEG\" + file_name + ".jpeg");
             iTextSharp.text.Image Itextimage = iTextSharp.text.Image.GetInstance(img, System.Drawing.Imaging.ImageFormat.Tiff);
@@ -134,6 +134,11 @@ namespace Resume_Creator_or_Generator
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resumertbox_TextChanged(object sender, EventArgs e)
         {
 
         }
