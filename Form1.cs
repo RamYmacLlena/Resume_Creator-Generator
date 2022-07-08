@@ -142,5 +142,10 @@ namespace Resume_Creator_or_Generator
         {
 
         }
+
+        private void firstnametxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

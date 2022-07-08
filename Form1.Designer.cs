@@ -390,6 +390,7 @@
             this.firstnametxtbox.Name = "firstnametxtbox";
             this.firstnametxtbox.Size = new System.Drawing.Size(194, 29);
             this.firstnametxtbox.TabIndex = 10;
+            this.firstnametxtbox.TextChanged += new System.EventHandler(this.firstnametxtbox_TextChanged);
             // 
             // sexlbl
             // 
