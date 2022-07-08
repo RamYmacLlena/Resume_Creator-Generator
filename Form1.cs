@@ -6,5 +6,10 @@ namespace Resume_Creator_or_Generator
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
