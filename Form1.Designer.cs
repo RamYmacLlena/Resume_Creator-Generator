@@ -31,9 +31,9 @@
             this.ResumeCreatorlbl = new System.Windows.Forms.Label();
             this.PersonalInfolbl = new System.Windows.Forms.Label();
             this.EducBglbl = new System.Windows.Forms.Label();
-            this.EducPanel = new System.Windows.Forms.Panel();
+            this.educPanel = new System.Windows.Forms.Panel();
             this.notelbl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tertiarytxtbox = new System.Windows.Forms.TextBox();
             this.tertiarylbl = new System.Windows.Forms.Label();
             this.shslbl = new System.Windows.Forms.Label();
             this.JHSlbl = new System.Windows.Forms.Label();
@@ -42,7 +42,8 @@
             this.secondarylbl = new System.Windows.Forms.Label();
             this.primarytxtbox = new System.Windows.Forms.TextBox();
             this.primarylbl = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.personalpanel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.sextxtbox = new System.Windows.Forms.TextBox();
             this.agetxtbox = new System.Windows.Forms.TextBox();
             this.citizenshiptxtbox = new System.Windows.Forms.TextBox();
@@ -50,7 +51,7 @@
             this.emailtxtbox = new System.Windows.Forms.TextBox();
             this.contactnotxtbox = new System.Windows.Forms.TextBox();
             this.addresstxtbox = new System.Windows.Forms.TextBox();
-            this.nametxtbox = new System.Windows.Forms.TextBox();
+            this.firstnametxtbox = new System.Windows.Forms.TextBox();
             this.sexlbl = new System.Windows.Forms.Label();
             this.Citizenshiplbl = new System.Windows.Forms.Label();
             this.agelbl = new System.Windows.Forms.Label();
@@ -59,35 +60,41 @@
             this.Cntctnolbl = new System.Windows.Forms.Label();
             this.addresslbl = new System.Windows.Forms.Label();
             this.namelbl = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.careerobjpanel = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.careerobjtxtbox = new System.Windows.Forms.TextBox();
             this.carerrobjlbl = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.skillspanel = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.skill3 = new System.Windows.Forms.TextBox();
             this.skill2 = new System.Windows.Forms.TextBox();
             this.skill1 = new System.Windows.Forms.TextBox();
             this.skillslbl = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.workexppanel = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.employertxtbox2 = new System.Windows.Forms.TextBox();
             this.employerlbl2 = new System.Windows.Forms.Label();
-            this.Details2 = new System.Windows.Forms.TextBox();
+            this.Details2txtbox = new System.Windows.Forms.TextBox();
+            this.resumertbox = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.employertxtbox1 = new System.Windows.Forms.TextBox();
             this.employerlbl1 = new System.Windows.Forms.Label();
-            this.Details1 = new System.Windows.Forms.TextBox();
+            this.Details1txtbox = new System.Windows.Forms.TextBox();
             this.workexperiencelbl = new System.Windows.Forms.Label();
-            this.PDFtxtbox = new System.Windows.Forms.Button();
-            this.JSONtxtbox = new System.Windows.Forms.Button();
-            this.resumertbox = new System.Windows.Forms.RichTextBox();
-            this.EducPanel.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.PDFbtnsave = new System.Windows.Forms.Button();
+            this.JSONbtnsave = new System.Windows.Forms.Button();
+            this.Resumepanel = new System.Windows.Forms.Panel();
+            this.mitxtbox = new System.Windows.Forms.TextBox();
+            this.lastnametxtbox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.educPanel.SuspendLayout();
+            this.personalpanel.SuspendLayout();
+            this.careerobjpanel.SuspendLayout();
+            this.skillspanel.SuspendLayout();
+            this.workexppanel.SuspendLayout();
+            this.Resumepanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // ResumeCreatorlbl
@@ -105,7 +112,7 @@
             this.PersonalInfolbl.AutoSize = true;
             this.PersonalInfolbl.Font = new System.Drawing.Font("Showcard Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PersonalInfolbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.PersonalInfolbl.Location = new System.Drawing.Point(337, 14);
+            this.PersonalInfolbl.Location = new System.Drawing.Point(337, 5);
             this.PersonalInfolbl.Name = "PersonalInfolbl";
             this.PersonalInfolbl.Size = new System.Drawing.Size(285, 29);
             this.PersonalInfolbl.TabIndex = 1;
@@ -116,31 +123,31 @@
             this.EducBglbl.AutoSize = true;
             this.EducBglbl.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.EducBglbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.EducBglbl.Location = new System.Drawing.Point(183, 11);
+            this.EducBglbl.Location = new System.Drawing.Point(275, 10);
             this.EducBglbl.Name = "EducBglbl";
             this.EducBglbl.Size = new System.Drawing.Size(288, 26);
             this.EducBglbl.TabIndex = 2;
             this.EducBglbl.Text = "Educational Background";
             // 
-            // EducPanel
+            // educPanel
             // 
-            this.EducPanel.BackColor = System.Drawing.Color.Black;
-            this.EducPanel.Controls.Add(this.notelbl);
-            this.EducPanel.Controls.Add(this.textBox1);
-            this.EducPanel.Controls.Add(this.tertiarylbl);
-            this.EducPanel.Controls.Add(this.shslbl);
-            this.EducPanel.Controls.Add(this.JHSlbl);
-            this.EducPanel.Controls.Add(this.shstxtbox);
-            this.EducPanel.Controls.Add(this.jhstxtbox);
-            this.EducPanel.Controls.Add(this.secondarylbl);
-            this.EducPanel.Controls.Add(this.primarytxtbox);
-            this.EducPanel.Controls.Add(this.EducBglbl);
-            this.EducPanel.Controls.Add(this.primarylbl);
-            this.EducPanel.Location = new System.Drawing.Point(181, 251);
-            this.EducPanel.Name = "EducPanel";
-            this.EducPanel.Size = new System.Drawing.Size(671, 215);
-            this.EducPanel.TabIndex = 3;
-            this.EducPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.EducPanel_Paint);
+            this.educPanel.BackColor = System.Drawing.Color.Black;
+            this.educPanel.Controls.Add(this.notelbl);
+            this.educPanel.Controls.Add(this.tertiarytxtbox);
+            this.educPanel.Controls.Add(this.tertiarylbl);
+            this.educPanel.Controls.Add(this.shslbl);
+            this.educPanel.Controls.Add(this.JHSlbl);
+            this.educPanel.Controls.Add(this.shstxtbox);
+            this.educPanel.Controls.Add(this.jhstxtbox);
+            this.educPanel.Controls.Add(this.secondarylbl);
+            this.educPanel.Controls.Add(this.primarytxtbox);
+            this.educPanel.Controls.Add(this.EducBglbl);
+            this.educPanel.Controls.Add(this.primarylbl);
+            this.educPanel.Location = new System.Drawing.Point(109, 197);
+            this.educPanel.Name = "educPanel";
+            this.educPanel.Size = new System.Drawing.Size(819, 215);
+            this.educPanel.TabIndex = 3;
+            this.educPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.EducPanel_Paint);
             // 
             // notelbl
             // 
@@ -153,13 +160,13 @@
             this.notelbl.TabIndex = 33;
             this.notelbl.Text = "Name of School/s. Type N/A if not applicable";
             // 
-            // textBox1
+            // tertiarytxtbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 174);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(535, 29);
-            this.textBox1.TabIndex = 26;
+            this.tertiarytxtbox.Location = new System.Drawing.Point(115, 174);
+            this.tertiarytxtbox.Multiline = true;
+            this.tertiarytxtbox.Name = "tertiarytxtbox";
+            this.tertiarytxtbox.Size = new System.Drawing.Size(681, 29);
+            this.tertiarytxtbox.TabIndex = 26;
             // 
             // tertiarylbl
             // 
@@ -199,7 +206,7 @@
             this.shstxtbox.Location = new System.Drawing.Point(183, 140);
             this.shstxtbox.Multiline = true;
             this.shstxtbox.Name = "shstxtbox";
-            this.shstxtbox.Size = new System.Drawing.Size(467, 29);
+            this.shstxtbox.Size = new System.Drawing.Size(613, 29);
             this.shstxtbox.TabIndex = 22;
             // 
             // jhstxtbox
@@ -207,7 +214,7 @@
             this.jhstxtbox.Location = new System.Drawing.Point(183, 105);
             this.jhstxtbox.Multiline = true;
             this.jhstxtbox.Name = "jhstxtbox";
-            this.jhstxtbox.Size = new System.Drawing.Size(467, 29);
+            this.jhstxtbox.Size = new System.Drawing.Size(613, 29);
             this.jhstxtbox.TabIndex = 21;
             // 
             // secondarylbl
@@ -226,7 +233,7 @@
             this.primarytxtbox.Location = new System.Drawing.Point(115, 71);
             this.primarytxtbox.Multiline = true;
             this.primarytxtbox.Name = "primarytxtbox";
-            this.primarytxtbox.Size = new System.Drawing.Size(535, 29);
+            this.primarytxtbox.Size = new System.Drawing.Size(681, 29);
             this.primarytxtbox.TabIndex = 19;
             // 
             // primarylbl
@@ -240,31 +247,47 @@
             this.primarylbl.TabIndex = 18;
             this.primarylbl.Text = "Primary :";
             // 
-            // panel1
+            // personalpanel
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.sextxtbox);
-            this.panel1.Controls.Add(this.agetxtbox);
-            this.panel1.Controls.Add(this.citizenshiptxtbox);
-            this.panel1.Controls.Add(this.birthdatetxtbox);
-            this.panel1.Controls.Add(this.emailtxtbox);
-            this.panel1.Controls.Add(this.contactnotxtbox);
-            this.panel1.Controls.Add(this.addresstxtbox);
-            this.panel1.Controls.Add(this.nametxtbox);
-            this.panel1.Controls.Add(this.sexlbl);
-            this.panel1.Controls.Add(this.Citizenshiplbl);
-            this.panel1.Controls.Add(this.agelbl);
-            this.panel1.Controls.Add(this.Birthdatelbl);
-            this.panel1.Controls.Add(this.Emaillbl);
-            this.panel1.Controls.Add(this.Cntctnolbl);
-            this.panel1.Controls.Add(this.addresslbl);
-            this.panel1.Controls.Add(this.namelbl);
-            this.panel1.Controls.Add(this.PersonalInfolbl);
-            this.panel1.Location = new System.Drawing.Point(12, 57);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1013, 188);
-            this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.personalpanel.BackColor = System.Drawing.Color.Black;
+            this.personalpanel.Controls.Add(this.label6);
+            this.personalpanel.Controls.Add(this.label2);
+            this.personalpanel.Controls.Add(this.lastnametxtbox);
+            this.personalpanel.Controls.Add(this.mitxtbox);
+            this.personalpanel.Controls.Add(this.label1);
+            this.personalpanel.Controls.Add(this.sextxtbox);
+            this.personalpanel.Controls.Add(this.agetxtbox);
+            this.personalpanel.Controls.Add(this.citizenshiptxtbox);
+            this.personalpanel.Controls.Add(this.birthdatetxtbox);
+            this.personalpanel.Controls.Add(this.emailtxtbox);
+            this.personalpanel.Controls.Add(this.contactnotxtbox);
+            this.personalpanel.Controls.Add(this.addresstxtbox);
+            this.personalpanel.Controls.Add(this.firstnametxtbox);
+            this.personalpanel.Controls.Add(this.sexlbl);
+            this.personalpanel.Controls.Add(this.Citizenshiplbl);
+            this.personalpanel.Controls.Add(this.agelbl);
+            this.personalpanel.Controls.Add(this.Birthdatelbl);
+            this.personalpanel.Controls.Add(this.Emaillbl);
+            this.personalpanel.Controls.Add(this.Cntctnolbl);
+            this.personalpanel.Controls.Add(this.addresslbl);
+            this.personalpanel.Controls.Add(this.namelbl);
+            this.personalpanel.Controls.Add(this.PersonalInfolbl);
+            this.personalpanel.Location = new System.Drawing.Point(12, 3);
+            this.personalpanel.Name = "personalpanel";
+            this.personalpanel.Size = new System.Drawing.Size(1013, 188);
+            this.personalpanel.TabIndex = 4;
+            this.personalpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(82, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 19);
+            this.label1.TabIndex = 34;
+            this.label1.Text = "First Name";
             // 
             // sextxtbox
             // 
@@ -322,13 +345,13 @@
             this.addresstxtbox.Size = new System.Drawing.Size(398, 29);
             this.addresstxtbox.TabIndex = 11;
             // 
-            // nametxtbox
+            // firstnametxtbox
             // 
-            this.nametxtbox.Location = new System.Drawing.Point(82, 55);
-            this.nametxtbox.Multiline = true;
-            this.nametxtbox.Name = "nametxtbox";
-            this.nametxtbox.Size = new System.Drawing.Size(425, 29);
-            this.nametxtbox.TabIndex = 10;
+            this.firstnametxtbox.Location = new System.Drawing.Point(82, 55);
+            this.firstnametxtbox.Multiline = true;
+            this.firstnametxtbox.Name = "firstnametxtbox";
+            this.firstnametxtbox.Size = new System.Drawing.Size(194, 29);
+            this.firstnametxtbox.TabIndex = 10;
             // 
             // sexlbl
             // 
@@ -418,17 +441,17 @@
             this.namelbl.TabIndex = 2;
             this.namelbl.Text = "Name :";
             // 
-            // panel2
+            // careerobjpanel
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.careerobjtxtbox);
-            this.panel2.Controls.Add(this.carerrobjlbl);
-            this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(12, 543);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(431, 215);
-            this.panel2.TabIndex = 5;
+            this.careerobjpanel.BackColor = System.Drawing.Color.Black;
+            this.careerobjpanel.Controls.Add(this.textBox3);
+            this.careerobjpanel.Controls.Add(this.careerobjtxtbox);
+            this.careerobjpanel.Controls.Add(this.carerrobjlbl);
+            this.careerobjpanel.ForeColor = System.Drawing.Color.Black;
+            this.careerobjpanel.Location = new System.Drawing.Point(8, 418);
+            this.careerobjpanel.Name = "careerobjpanel";
+            this.careerobjpanel.Size = new System.Drawing.Size(431, 215);
+            this.careerobjpanel.TabIndex = 5;
             // 
             // textBox3
             // 
@@ -457,18 +480,18 @@
             this.carerrobjlbl.TabIndex = 1;
             this.carerrobjlbl.Text = "Career Obectives";
             // 
-            // panel3
+            // skillspanel
             // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.skill3);
-            this.panel3.Controls.Add(this.skill2);
-            this.panel3.Controls.Add(this.skill1);
-            this.panel3.Controls.Add(this.skillslbl);
-            this.panel3.Location = new System.Drawing.Point(12, 764);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(431, 186);
-            this.panel3.TabIndex = 6;
+            this.skillspanel.BackColor = System.Drawing.Color.Black;
+            this.skillspanel.Controls.Add(this.label7);
+            this.skillspanel.Controls.Add(this.skill3);
+            this.skillspanel.Controls.Add(this.skill2);
+            this.skillspanel.Controls.Add(this.skill1);
+            this.skillspanel.Controls.Add(this.skillslbl);
+            this.skillspanel.Location = new System.Drawing.Point(8, 639);
+            this.skillspanel.Name = "skillspanel";
+            this.skillspanel.Size = new System.Drawing.Size(431, 187);
+            this.skillspanel.TabIndex = 6;
             // 
             // label7
             // 
@@ -516,23 +539,24 @@
             this.skillslbl.TabIndex = 1;
             this.skillslbl.Text = "Personal Skills";
             // 
-            // panel4
+            // workexppanel
             // 
-            this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.employertxtbox2);
-            this.panel4.Controls.Add(this.employerlbl2);
-            this.panel4.Controls.Add(this.Details2);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.employertxtbox1);
-            this.panel4.Controls.Add(this.employerlbl1);
-            this.panel4.Controls.Add(this.Details1);
-            this.panel4.Controls.Add(this.workexperiencelbl);
-            this.panel4.Location = new System.Drawing.Point(449, 472);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(576, 530);
-            this.panel4.TabIndex = 7;
+            this.workexppanel.BackColor = System.Drawing.Color.Black;
+            this.workexppanel.Controls.Add(this.label3);
+            this.workexppanel.Controls.Add(this.label5);
+            this.workexppanel.Controls.Add(this.employertxtbox2);
+            this.workexppanel.Controls.Add(this.employerlbl2);
+            this.workexppanel.Controls.Add(this.Details2txtbox);
+            this.workexppanel.Controls.Add(this.resumertbox);
+            this.workexppanel.Controls.Add(this.label4);
+            this.workexppanel.Controls.Add(this.employertxtbox1);
+            this.workexppanel.Controls.Add(this.employerlbl1);
+            this.workexppanel.Controls.Add(this.Details1txtbox);
+            this.workexppanel.Controls.Add(this.workexperiencelbl);
+            this.workexppanel.Location = new System.Drawing.Point(445, 418);
+            this.workexppanel.Name = "workexppanel";
+            this.workexppanel.Size = new System.Drawing.Size(576, 451);
+            this.workexppanel.TabIndex = 7;
             // 
             // label3
             // 
@@ -550,7 +574,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(12, 335);
+            this.label5.Location = new System.Drawing.Point(14, 297);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(502, 17);
             this.label5.TabIndex = 40;
@@ -558,10 +582,10 @@
             // 
             // employertxtbox2
             // 
-            this.employertxtbox2.Location = new System.Drawing.Point(222, 303);
+            this.employertxtbox2.Location = new System.Drawing.Point(224, 265);
             this.employertxtbox2.Multiline = true;
             this.employertxtbox2.Name = "employertxtbox2";
-            this.employertxtbox2.Size = new System.Drawing.Size(348, 29);
+            this.employertxtbox2.Size = new System.Drawing.Size(348, 10);
             this.employertxtbox2.TabIndex = 39;
             // 
             // employerlbl2
@@ -569,19 +593,27 @@
             this.employerlbl2.AutoSize = true;
             this.employerlbl2.Font = new System.Drawing.Font("Showcard Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.employerlbl2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.employerlbl2.Location = new System.Drawing.Point(12, 308);
+            this.employerlbl2.Location = new System.Drawing.Point(14, 270);
             this.employerlbl2.Name = "employerlbl2";
             this.employerlbl2.Size = new System.Drawing.Size(211, 17);
             this.employerlbl2.TabIndex = 38;
             this.employerlbl2.Text = "Employer or Company name :";
             // 
-            // Details2
+            // Details2txtbox
             // 
-            this.Details2.Location = new System.Drawing.Point(12, 356);
-            this.Details2.Multiline = true;
-            this.Details2.Name = "Details2";
-            this.Details2.Size = new System.Drawing.Size(558, 160);
-            this.Details2.TabIndex = 37;
+            this.Details2txtbox.Location = new System.Drawing.Point(14, 317);
+            this.Details2txtbox.Multiline = true;
+            this.Details2txtbox.Name = "Details2txtbox";
+            this.Details2txtbox.Size = new System.Drawing.Size(558, 124);
+            this.Details2txtbox.TabIndex = 37;
+            // 
+            // resumertbox
+            // 
+            this.resumertbox.Location = new System.Drawing.Point(14, 367);
+            this.resumertbox.Name = "resumertbox";
+            this.resumertbox.Size = new System.Drawing.Size(114, 66);
+            this.resumertbox.TabIndex = 43;
+            this.resumertbox.Text = "";
             // 
             // label4
             // 
@@ -613,13 +645,13 @@
             this.employerlbl1.TabIndex = 29;
             this.employerlbl1.Text = "Employer or Company name :";
             // 
-            // Details1
+            // Details1txtbox
             // 
-            this.Details1.Location = new System.Drawing.Point(12, 126);
-            this.Details1.Multiline = true;
-            this.Details1.Name = "Details1";
-            this.Details1.Size = new System.Drawing.Size(558, 160);
-            this.Details1.TabIndex = 28;
+            this.Details1txtbox.Location = new System.Drawing.Point(12, 126);
+            this.Details1txtbox.Multiline = true;
+            this.Details1txtbox.Name = "Details1txtbox";
+            this.Details1txtbox.Size = new System.Drawing.Size(558, 130);
+            this.Details1txtbox.TabIndex = 28;
             // 
             // workexperiencelbl
             // 
@@ -632,66 +664,104 @@
             this.workexperiencelbl.TabIndex = 1;
             this.workexperiencelbl.Text = "Work Experience";
             // 
-            // PDFtxtbox
+            // PDFbtnsave
             // 
-            this.PDFtxtbox.BackColor = System.Drawing.Color.Cyan;
-            this.PDFtxtbox.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PDFtxtbox.Location = new System.Drawing.Point(1065, 886);
-            this.PDFtxtbox.Name = "PDFtxtbox";
-            this.PDFtxtbox.Size = new System.Drawing.Size(190, 37);
-            this.PDFtxtbox.TabIndex = 9;
-            this.PDFtxtbox.Text = "Save as PDF file";
-            this.PDFtxtbox.UseVisualStyleBackColor = false;
-            this.PDFtxtbox.Click += new System.EventHandler(this.PDFtxtbox_Click);
+            this.PDFbtnsave.BackColor = System.Drawing.Color.Cyan;
+            this.PDFbtnsave.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PDFbtnsave.Location = new System.Drawing.Point(109, 978);
+            this.PDFbtnsave.Name = "PDFbtnsave";
+            this.PDFbtnsave.Size = new System.Drawing.Size(190, 37);
+            this.PDFbtnsave.TabIndex = 9;
+            this.PDFbtnsave.Text = "Save as PDF file";
+            this.PDFbtnsave.UseVisualStyleBackColor = false;
+            this.PDFbtnsave.Click += new System.EventHandler(this.PDFtxtbox_Click);
             // 
-            // JSONtxtbox
+            // JSONbtnsave
             // 
-            this.JSONtxtbox.BackColor = System.Drawing.Color.Cyan;
-            this.JSONtxtbox.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.JSONtxtbox.Location = new System.Drawing.Point(1061, 943);
-            this.JSONtxtbox.Name = "JSONtxtbox";
-            this.JSONtxtbox.Size = new System.Drawing.Size(199, 37);
-            this.JSONtxtbox.TabIndex = 10;
-            this.JSONtxtbox.Text = "Save as JSON file";
-            this.JSONtxtbox.UseVisualStyleBackColor = false;
-            this.JSONtxtbox.Click += new System.EventHandler(this.JSONtxtbox_Click);
+            this.JSONbtnsave.BackColor = System.Drawing.Color.Cyan;
+            this.JSONbtnsave.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.JSONbtnsave.Location = new System.Drawing.Point(104, 935);
+            this.JSONbtnsave.Name = "JSONbtnsave";
+            this.JSONbtnsave.Size = new System.Drawing.Size(199, 37);
+            this.JSONbtnsave.TabIndex = 10;
+            this.JSONbtnsave.Text = "Save as JSON file";
+            this.JSONbtnsave.UseVisualStyleBackColor = false;
+            this.JSONbtnsave.Click += new System.EventHandler(this.JSONtxtbox_Click);
             // 
-            // resumertbox
+            // Resumepanel
             // 
-            this.resumertbox.Location = new System.Drawing.Point(1041, 57);
-            this.resumertbox.Name = "resumertbox";
-            this.resumertbox.Size = new System.Drawing.Size(240, 802);
-            this.resumertbox.TabIndex = 43;
-            this.resumertbox.Text = "";
+            this.Resumepanel.Controls.Add(this.skillspanel);
+            this.Resumepanel.Controls.Add(this.workexppanel);
+            this.Resumepanel.Controls.Add(this.careerobjpanel);
+            this.Resumepanel.Controls.Add(this.personalpanel);
+            this.Resumepanel.Controls.Add(this.educPanel);
+            this.Resumepanel.Location = new System.Drawing.Point(0, 49);
+            this.Resumepanel.Name = "Resumepanel";
+            this.Resumepanel.Size = new System.Drawing.Size(1047, 880);
+            this.Resumepanel.TabIndex = 42;
+            // 
+            // mitxtbox
+            // 
+            this.mitxtbox.Location = new System.Drawing.Point(282, 55);
+            this.mitxtbox.Multiline = true;
+            this.mitxtbox.Name = "mitxtbox";
+            this.mitxtbox.Size = new System.Drawing.Size(42, 29);
+            this.mitxtbox.TabIndex = 35;
+            // 
+            // lastnametxtbox
+            // 
+            this.lastnametxtbox.Location = new System.Drawing.Point(330, 56);
+            this.lastnametxtbox.Multiline = true;
+            this.lastnametxtbox.Name = "lastnametxtbox";
+            this.lastnametxtbox.Size = new System.Drawing.Size(177, 29);
+            this.lastnametxtbox.TabIndex = 36;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(280, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 19);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "MI";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(330, 34);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(83, 19);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Last Name";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(1293, 1007);
-            this.Controls.Add(this.resumertbox);
-            this.Controls.Add(this.JSONtxtbox);
-            this.Controls.Add(this.PDFtxtbox);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.EducPanel);
+            this.ClientSize = new System.Drawing.Size(1033, 1019);
+            this.Controls.Add(this.Resumepanel);
+            this.Controls.Add(this.JSONbtnsave);
+            this.Controls.Add(this.PDFbtnsave);
             this.Controls.Add(this.ResumeCreatorlbl);
             this.Name = "Form1";
             this.Text = "RESUME CREATOR/GENERATOR";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.EducPanel.ResumeLayout(false);
-            this.EducPanel.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.educPanel.ResumeLayout(false);
+            this.educPanel.PerformLayout();
+            this.personalpanel.ResumeLayout(false);
+            this.personalpanel.PerformLayout();
+            this.careerobjpanel.ResumeLayout(false);
+            this.careerobjpanel.PerformLayout();
+            this.skillspanel.ResumeLayout(false);
+            this.skillspanel.PerformLayout();
+            this.workexppanel.ResumeLayout(false);
+            this.workexppanel.PerformLayout();
+            this.Resumepanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -702,8 +772,8 @@
         private Label ResumeCreatorlbl;
         private Label PersonalInfolbl;
         private Label EducBglbl;
-        private Panel EducPanel;
-        private Panel panel1;
+        private Panel educPanel;
+        private Panel personalpanel;
         private TextBox sextxtbox;
         private TextBox agetxtbox;
         private TextBox citizenshiptxtbox;
@@ -711,7 +781,7 @@
         private TextBox emailtxtbox;
         private TextBox contactnotxtbox;
         private TextBox addresstxtbox;
-        private TextBox nametxtbox;
+        private TextBox firstnametxtbox;
         private Label sexlbl;
         private Label Citizenshiplbl;
         private Label agelbl;
@@ -720,12 +790,12 @@
         private Label Cntctnolbl;
         private Label addresslbl;
         private Label namelbl;
-        private Panel panel2;
+        private Panel careerobjpanel;
         private Label carerrobjlbl;
-        private Panel panel3;
+        private Panel skillspanel;
         private Label skillslbl;
         private Label notelbl;
-        private TextBox textBox1;
+        private TextBox tertiarytxtbox;
         private Label tertiarylbl;
         private Label shslbl;
         private Label JHSlbl;
@@ -740,19 +810,25 @@
         private TextBox skill3;
         private TextBox skill2;
         private TextBox skill1;
-        private Panel panel4;
+        private Panel workexppanel;
         private Label label3;
         private Label label5;
         private TextBox employertxtbox2;
         private Label employerlbl2;
-        private TextBox Details2;
+        private TextBox Details2txtbox;
         private Label label4;
         private TextBox employertxtbox1;
         private Label employerlbl1;
-        private TextBox Details1;
+        private TextBox Details1txtbox;
         private Label workexperiencelbl;
-        private Button PDFtxtbox;
-        private Button JSONtxtbox;
+        private Button PDFbtnsave;
+        private Button JSONbtnsave;
         private RichTextBox resumertbox;
+        private Label label1;
+        private Panel Resumepanel;
+        private Label label6;
+        private Label label2;
+        private TextBox lastnametxtbox;
+        private TextBox mitxtbox;
     }
 }

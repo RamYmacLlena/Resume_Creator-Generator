@@ -1,0 +1,22 @@
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Resume Creator or Generator.exe
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Resume Creator or Generator.deps.json
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Resume Creator or Generator.runtimeconfig.json
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Resume Creator or Generator.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Resume Creator or Generator.pdb
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.csproj.AssemblyReference.cache
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume_Creator_or_Generator.Form1.resources
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume_Creator_or_Generator.Properties.Resources.resources
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.csproj.GenerateResource.cache
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.AssemblyInfoInputs.cache
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.AssemblyInfo.cs
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.csproj.CoreCompileInputs.cache
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.csproj.CopyComplete
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\refint\Resume Creator or Generator.dll
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.pdb
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\Resume Creator or Generator.genruntimeconfig.cache
+C:\Users\au\source\repos\Resume Creator or Generator\Resume Creator or Generator\obj\Debug\net6.0-windows\ref\Resume Creator or Generator.dll
